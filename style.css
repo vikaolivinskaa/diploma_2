@@ -1,0 +1,273 @@
+.nav {
+  display: flex;
+  flex-direction: row;
+}
+* {
+  margin: 0;
+}
+.nav-ul {
+  list-style: none;
+  display: flex;
+
+  gap: 20px;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 158%;
+  letter-spacing: 0.02em;
+  color: #292f36;
+}
+
+.nav-ul-li:hover {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #cda274;
+}
+.fon-imeges {
+  background-image: url(./imege/a/fon.png);
+  width: 1440px;
+  height: 831px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  padding-top: 188px;
+  padding-left: 120px;
+
+  font-size: 80px;
+  line-height: 120%;
+
+  color: #292f36;
+}
+.fon-p {
+  padding-left: 120px;
+
+  font-size: 22px;
+  line-height: 150%;
+  color: #4d5053;
+  margin-bottom: 30px;
+}
+.fon-button {
+  border-radius: 18px;
+  background-color: #292f36;
+  font-size: 18px;
+  color: azure;
+  width: 207px;
+  height: 71px;
+  margin-left: 120px;
+}
+.fon-bottom {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.fon-ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  gap: 30px;
+}
+
+.right-text {
+  padding-bottom: 42px;
+
+  font-size: 50px;
+  font-size: 22px;
+}
+.fon-h4 {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 17px;
+}
+.container-2 {
+  display: flex;
+  gap: 50px;
+  margin-left: 120px;
+  margin-bottom: 140px;
+}
+.phone {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+.left {
+  padding-right: 120px;
+}
+.imege {
+  width: 592px;
+  height: 635;
+}
+.container-3 {
+  width: 1200 px;
+  height: 675px;
+  margin-left: 120px;
+  margin-right: 120px;
+  margin-bottom: 139px;
+  border: 2px solid #f4f0ec;
+  border-radius: 70px;
+  background-color: #f4f0ec;
+}
+.container-3-section {
+  padding-left: 50px;
+  padding-right: 50px;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+.text-container-3 {
+  padding-top: 103px;
+  padding-bottom: 45px;
+  text-align: center;
+
+  font-size: 45px;
+}
+.section-card-top {
+  display: flex;
+  justify-content: flex-start;
+  column-gap: 8px;
+  align-items: center;
+  padding-left: 35px;
+  padding-top: 50px;
+  padding-bottom: 25px;
+}
+.data {
+  padding-left: 35px;
+  font-weight: 400;
+  font-size: 20px;
+}
+.section-card {
+  border: 2px solid white;
+  background-color: white;
+  border-radius: 30px;
+  width: 354px;
+  height: 287px;
+  margin: 16px;
+}
+.text-right {
+  display: flex;
+  flex-direction: column;
+}
+.brand {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 120px;
+  margin-right: 120px;
+  margin-bottom: 100px;
+}
+.text-text-h {
+  font-size: 47px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.text-text-p {
+  font-size: 22px;
+  text-align: center;
+  padding-bottom: 70px;
+}
+
+.room {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-left: 120px;
+  margin-right: 120px;
+  margin-bottom: 100px;
+}
+.room-card {
+  width: 590px;
+  height: 756px;
+  margin-bottom: 25px;
+}
+.room-h5 {
+  font-size: 24px;
+}
+.number {
+  background-color: #f4f0ec;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 130px;
+}
+.number-section {
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.number-h3 {
+  font-size: 85px;
+  color: #cda274;
+}
+.container-5 {
+}
+.hause-section {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-left: 120px;
+  margin-bottom: 100px;
+}
+.hause-card {
+  border: 1px solid;
+  border-radius: 62px;
+  padding-top: 20px;
+
+  height: 515px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.hause-photo {
+  padding-bottom: 15px;
+}
+.hause-h {
+  padding-bottom: 45px;
+}
+.hause-p {
+}
+.black {
+  border: 1px solid;
+  border-radius: 70px;
+  background-color: #292f36;
+  padding-top: 100px;
+  margin-left: 120px;
+  margin-right: 120px;
+  margin-bottom: 100px;
+}
+.black-h {
+  font-size: 50px;
+  text-align: center;
+  color: #fff;
+  padding-bottom: 9px;
+  padding-top: 50px;
+}
+.black-p {
+  text-align: center;
+  font-size: 22px;
+  color: #fff;
+}
+.black-button {
+  color: #fff;
+  font-size: 18px;
+  border-radius: 18px;
+
+  font-size: 18px;
+  background-color: #cda274;
+  width: 241px;
+  height: 71px;
+  margin-left: 550px;
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
+.footer {
+  display: flex;
+  margin-left: 120px;
+}
+.footer-ul{
+  display: flex;
+}
+.network-logo {
+
+}
+
+.footer-right {
+  display: flex;
+}
