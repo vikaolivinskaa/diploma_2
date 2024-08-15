@@ -261,8 +261,20 @@ h1 {
   display: flex;
   margin-left: 120px;
 }
+.footer-left{
+  
+}
+.info-h{
+  padding-bottom: 20px;
+}
+.info-p{
+  padding-bottom: 20px;
+}
 .footer-ul{
   display: flex;
+  gap: 100px;
+  list-style: none;
+ 
 }
 .network-logo {
 
